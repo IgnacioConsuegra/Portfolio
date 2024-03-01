@@ -1,0 +1,32 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+}
+div#root { 
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+:root {
+  --color-950: #0d333f;
+  --color-900: #1c4e5d;
+  --color-800: #1d5e6d;
+  --color-700: #197385;
+  --color-main: #15889c; 
+  --color-500: #17b2c3;
+  --color-400: #33cfdd;
+  --color-300 : #73e5ed;
+  --color-200: #acf0f5;
+  --color-100: #d3f9fa;
+  --color-50: #33cfdd;
+  --color-backgroundCountainer: #f2f3f5;
+  font-size: 16px;
+}

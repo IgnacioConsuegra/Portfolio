@@ -1,0 +1,37 @@
+div.changeButton{
+  font-size: 10px;
+  width: 5em;
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  border-radius: 500px;
+  margin: 0 auto;
+  border: 1px solid grey;
+  margin-top: .3em;
+}
+div.changeButton.dark{
+  background-color: white;
+  svg{
+    background-color: white;
+    color: black;
+  }
+}
+div.changeButton.light{
+  background-color: black;
+  svg{
+    background-color: black;
+  }
+}
+
+  
+div.changeButton:hover{
+  cursor: pointer;
+}
+@media screen and (min-width: 1024px) {
+  div.changeButton{
+    margin: 0 ;
+  }
+}

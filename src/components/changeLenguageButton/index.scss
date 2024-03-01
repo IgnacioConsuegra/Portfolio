@@ -1,0 +1,127 @@
+div.ChangeLanguageButton{
+  width: 100px;
+  height: 50px;
+  color: black;
+  position: relative;
+  margin: 0 auto;
+  font-size: 10px;
+  margin-top: 1em;
+  border: none;
+  
+  .ChangeLanguageButton__Handler{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img{
+      width: 50px;
+      height: 40px;
+    }
+    span{
+      width: 20%;
+      height: 100%;
+      svg{
+        width: 100%;
+        height: 100%;
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .ChangeLanguageButton__LanguagesContainer { 
+    position: fixed;
+    width: 100vw;
+    height: 100dvb;
+    top: 0;
+    left: 0;
+    border: 1px solid black;
+    background-color: black;
+    display: grid;
+    grid-template-rows: repeat(6 1fr);
+    touch-action: none; /* Deshabilita la acción táctil para evitar el arrastre */
+    user-select: none; /* Evita la selección de texto */
+    div{
+      width: 100%;
+      height: 100%;
+      height: calc(100dvb / 6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      touch-action: none; /* Deshabilita la acción táctil para evitar el arrastre */
+      user-select: none; /* Evita la selección de texto */
+
+      p{
+        width: 20%;
+        height: fit-content;
+        color: white;
+      }
+      img{
+        width: 20%;
+        height: 50%;
+        pointer-events: none; /* Desactiva las interacciones del cursor */
+
+      }
+    }
+    div:hover {
+      cursor: pointer;
+      // background-color: white;
+    }
+  }
+}
+div.ChangeLanguageButton.dark{
+  color: white;
+}
+div.ChangeLanguageButton.light{
+  span, svg, path{
+    color: black;
+  }
+}
+div.ChangeLanguageButton:hover{
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1023px) {
+  div.ChangeLanguageButton{
+    width: 130%;
+  }
+  div.ChangeLanguageButton .ChangeLanguageButton__LanguagesContainer{
+    position: fixed;
+    width: 100vw;
+    height: 100dvb;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    top: 0;
+    left: 0;
+    border: 1px solid black;
+    grid-template-rows: repeat(6 1fr);
+    touch-action: none;
+    user-select: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    background-color: black;
+    div {
+      width: 50%;
+      height: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      touch-action: none;
+      user-select: none;
+      p{
+        font-size: 7em;
+      }
+    }
+  }
+}
+

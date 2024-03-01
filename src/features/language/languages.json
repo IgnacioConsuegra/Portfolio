@@ -1,0 +1,51 @@
+{
+  "en":{
+    "NavBar": {
+      "Home" : "Home",
+      "About" : "About",
+      "Projects" : "Projects",
+      "Contact" : "Contact"
+    },
+    "HomePage": {
+      "Person" : "I'm",
+      "Array" : ["Ignacio Consuegra", "React Developer"]
+    }
+  },
+  "es":{
+    "NavBar": {
+      "Home" : "Hogar",
+      "About" : "Acerca",
+      "Projects" : "Proyectos",
+      "Contact" : "Contacto"
+    },
+    "HomePage": {
+      "Person" : "Yo soy",
+      "Array" : ["Ignacio Consuegra", "Desarrollador React"]
+    }
+  },
+  
+  "fr":{
+    "HomePage": {
+      "Person" : "I'm",
+      "Array" : ["Ignacio Consuegra", "React Developer"]
+    }
+  },
+  "it":{
+    "HomePage": {
+      "Person" : "I'm",
+      "Array" : ["Ignacio Consuegra", "React Developer"]
+    }
+  },
+  "pr":{
+    "HomePage": {
+      "Person" : "I'm",
+      "Array" : ["Ignacio Consuegra", "React Developer"]
+    }
+  },
+  "gr":{
+    "HomePage": {
+      "Person" : "I'm",
+      "Array" : ["Ignacio Consuegra", "React Developer"]
+    }
+  }
+}
